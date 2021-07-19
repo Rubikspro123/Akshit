@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.image{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    color: red;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.80;
+    background: linear-gradient(rgb(219, 146, 9) 40%, rgb(227, 243, 6) 60%) ;
+    display: table;
+    height: 100%;
+    width: 100%;
+
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.line{
+    height: 6px;
+    background-color: seagreen;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    font-size: 30px;
+    color: black;
+}
